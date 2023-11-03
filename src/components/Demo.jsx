@@ -23,9 +23,14 @@ const Demo = () => {
           className='url_input peer' />
           <button
           type='submit'
-          className='submit_btn'>Go</button>
+          className='submit_btn
+          peer-focus:border-gray-700 peer-focus:text-gray-700' >Go</button>
         </form>
+
+        {/* Browse URL History */}
       </div>
+
+      {/* Display Results */}
     </section>
   )
 }
